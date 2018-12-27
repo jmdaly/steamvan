@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -868,4 +868,30 @@ Wire Wire Line
 	7535 2640 7705 2640
 Wire Wire Line
 	7705 2740 7535 2740
+Text GLabel 7580 4140 0    50   Input ~ 0
+LEDPWM
+Wire Wire Line
+	7580 4140 7705 4140
+Text GLabel 9125 4440 2    50   Input ~ 0
+D_N
+Text GLabel 9125 4540 2    50   Input ~ 0
+D_P
+Wire Wire Line
+	9005 4440 9125 4440
+Wire Wire Line
+	9005 4540 9125 4540
+Text GLabel 9125 4640 2    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	9005 4640 9125 4640
+Text GLabel 9125 4740 2    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	9005 4740 9125 4740
+$Sheet
+S 4190 6305 1745 945 
+U 5C226ED8
+F0 "matrix" 50
+F1 "matrix.sch" 50
+$EndSheet
 $EndSCHEMATC
