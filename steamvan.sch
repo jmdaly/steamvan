@@ -910,10 +910,8 @@ Text GLabel 9125 4840 2    50   Input ~ 0
 ROW3
 Wire Wire Line
 	9125 4840 9005 4840
-Text GLabel 9135 3540 2    50   Input ~ 0
+Text GLabel 9135 4340 2    50   Input ~ 0
 COL0
-Wire Wire Line
-	9135 3540 9005 3540
 Text GLabel 9135 3640 2    50   Input ~ 0
 COL1
 Wire Wire Line
@@ -933,7 +931,7 @@ Wire Wire Line
 Text GLabel 9135 4140 2    50   Input ~ 0
 COL5
 Text GLabel 9135 4240 2    50   Input ~ 0
-COL6
+COL1
 Wire Wire Line
 	9005 4140 9135 4140
 Wire Wire Line
@@ -963,7 +961,6 @@ NoConn ~ 9005 3340
 NoConn ~ 9005 3440
 NoConn ~ 9005 3740
 NoConn ~ 9005 3840
-NoConn ~ 9005 4340
 NoConn ~ 7705 4640
 NoConn ~ 7705 4540
 NoConn ~ 7705 4440
@@ -992,4 +989,6 @@ Wire Wire Line
 Connection ~ 2215 2865
 Wire Wire Line
 	2215 2865 2215 2825
+Wire Wire Line
+	9005 4340 9135 4340
 $EndSCHEMATC
