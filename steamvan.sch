@@ -907,7 +907,7 @@ Wire Wire Line
 Wire Wire Line
 	7485 3540 7705 3540
 Text GLabel 9125 4840 2    50   Input ~ 0
-ROW3
+COL11
 Wire Wire Line
 	9125 4840 9005 4840
 Text GLabel 9135 4340 2    50   Input ~ 0
@@ -917,19 +917,19 @@ COL1
 Wire Wire Line
 	9135 3640 9005 3640
 Text GLabel 9135 3940 2    50   Input ~ 0
-COL2
+COL5
 Wire Wire Line
 	9005 3940 9135 3940
 Text GLabel 7545 4740 0    50   Input ~ 0
-COL3
-Text GLabel 7545 4840 0    50   Input ~ 0
 COL4
+Text GLabel 7545 4840 0    50   Input ~ 0
+COL3
 Wire Wire Line
 	7545 4840 7705 4840
 Wire Wire Line
 	7545 4740 7705 4740
 Text GLabel 9135 4140 2    50   Input ~ 0
-COL5
+COL2
 Text GLabel 9135 4240 2    50   Input ~ 0
 COL1
 Wire Wire Line
@@ -941,19 +941,11 @@ COL7
 Wire Wire Line
 	9005 4040 9130 4040
 Text GLabel 7485 3640 0    50   Input ~ 0
-COL8
-Text GLabel 7485 3740 0    50   Input ~ 0
-COL9
+COL10
 Wire Wire Line
 	7485 3640 7705 3640
-Wire Wire Line
-	7485 3740 7705 3740
-Text GLabel 7485 3040 0    50   Input ~ 0
-COL10
 Text GLabel 7485 3140 0    50   Input ~ 0
-COL11
-Wire Wire Line
-	7485 3040 7705 3040
+ROW3
 Wire Wire Line
 	7485 3140 7705 3140
 NoConn ~ 7705 2940
@@ -967,8 +959,6 @@ NoConn ~ 7705 4440
 NoConn ~ 7705 4340
 NoConn ~ 7705 4240
 NoConn ~ 7705 4040
-NoConn ~ 7705 3940
-NoConn ~ 7705 3840
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DA48319
@@ -991,4 +981,17 @@ Wire Wire Line
 	2215 2865 2215 2825
 Wire Wire Line
 	9005 4340 9135 4340
+Text GLabel 7485 3840 0    50   Input ~ 0
+COL8
+Wire Wire Line
+	7485 3840 7705 3840
+NoConn ~ 7705 3040
+Text GLabel 7485 3940 0    50   Input ~ 0
+COL7
+Wire Wire Line
+	7485 3740 7705 3740
+Text GLabel 7485 3740 0    50   Input ~ 0
+COL9
+Wire Wire Line
+	7485 3940 7705 3940
 $EndSCHEMATC
