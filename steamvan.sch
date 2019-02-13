@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -894,70 +894,50 @@ U 5C226ED8
 F0 "matrix" 50
 F1 "matrix.sch" 50
 $EndSheet
-Text GLabel 7485 3340 0    50   Input ~ 0
-ROW0
-Text GLabel 7485 3440 0    50   Input ~ 0
-ROW1
-Text GLabel 7485 3540 0    50   Input ~ 0
-ROW2
-Wire Wire Line
-	7485 3340 7705 3340
-Wire Wire Line
-	7705 3440 7485 3440
-Wire Wire Line
-	7485 3540 7705 3540
 Text GLabel 9125 4840 2    50   Input ~ 0
 COL11
 Wire Wire Line
 	9125 4840 9005 4840
 Text GLabel 9135 4340 2    50   Input ~ 0
-COL0
+COL5
 Text GLabel 9135 3640 2    50   Input ~ 0
-COL1
+ROW3
 Wire Wire Line
 	9135 3640 9005 3640
 Text GLabel 9135 3940 2    50   Input ~ 0
-COL5
+ROW0
 Wire Wire Line
 	9005 3940 9135 3940
 Text GLabel 7545 4740 0    50   Input ~ 0
-COL4
-Text GLabel 7545 4840 0    50   Input ~ 0
 COL3
+Text GLabel 7545 4840 0    50   Input ~ 0
+COL2
 Wire Wire Line
 	7545 4840 7705 4840
 Wire Wire Line
 	7545 4740 7705 4740
 Text GLabel 9135 4140 2    50   Input ~ 0
-COL2
-Text GLabel 9135 4240 2    50   Input ~ 0
 COL1
+Text GLabel 9135 4240 2    50   Input ~ 0
+COL0
 Wire Wire Line
 	9005 4140 9135 4140
 Wire Wire Line
 	9005 4240 9135 4240
 Text GLabel 9130 4040 2    50   Input ~ 0
-COL7
+RGBLED_3V3
 Wire Wire Line
 	9005 4040 9130 4040
 Text GLabel 7485 3640 0    50   Input ~ 0
 COL10
 Wire Wire Line
 	7485 3640 7705 3640
-Text GLabel 7485 3140 0    50   Input ~ 0
-ROW3
-Wire Wire Line
-	7485 3140 7705 3140
 NoConn ~ 7705 2940
 NoConn ~ 9005 3340
 NoConn ~ 9005 3440
-NoConn ~ 9005 3740
-NoConn ~ 9005 3840
-NoConn ~ 7705 4640
 NoConn ~ 7705 4540
 NoConn ~ 7705 4440
 NoConn ~ 7705 4340
-NoConn ~ 7705 4240
 NoConn ~ 7705 4040
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -994,4 +974,31 @@ Text GLabel 7485 3740 0    50   Input ~ 0
 COL9
 Wire Wire Line
 	7485 3940 7705 3940
+Text GLabel 7580 4240 0    50   Input ~ 0
+COL6
+Wire Wire Line
+	7580 4240 7705 4240
+Text GLabel 7545 4640 0    50   Input ~ 0
+COL4
+Wire Wire Line
+	7545 4640 7705 4640
+Text GLabel 9135 3840 2    50   Input ~ 0
+ROW1
+Text GLabel 9135 3740 2    50   Input ~ 0
+ROW2
+Wire Wire Line
+	9005 3740 9135 3740
+Wire Wire Line
+	9005 3840 9135 3840
+NoConn ~ 7705 3340
+NoConn ~ 7705 3440
+NoConn ~ 7705 3540
+NoConn ~ 9005 3540
+$Sheet
+S 7645 670  1430 675 
+U 5C6FFEF2
+F0 "rgb_underglow" 50
+F1 "rgb_underglow.sch" 50
+$EndSheet
+NoConn ~ 7705 3140
 $EndSCHEMATC
