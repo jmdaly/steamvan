@@ -22,8 +22,7 @@ The SteamVan aims to meet the following design goals:
 
 * Fits in MiniVan keyboard cases (tested with R3 MiniVan case only)
 
-* RGB LED underglow support. (Note that, at present, RGB underglow support is
-  not merged into QMK master for STM32 PCBs.)
+* RGB LED underglow support.
 
 ## Supported Layouts
 
