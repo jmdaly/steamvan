@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:steamvan-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -39,7 +38,7 @@ F 4 "C133333" H 4335 4035 50  0001 C CNN "LCSC PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:TLV70233_SOT23-5 U2
+L steamvan-rescue:TLV70233_SOT23-5-Regulator_Linear U2
 U 1 1 5C200B8E
 P 2630 5600
 F 0 "U2" H 2630 5942 50  0000 C CNN
