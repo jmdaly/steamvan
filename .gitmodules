@@ -6,7 +6,7 @@
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty.git
 [submodule "lib/jmdaly_keyboard_parts.pretty"]
 	path = lib/jmdaly_keyboard_parts.pretty
-	url = git@gitlab.com:jmdaly/jmdaly_keyboard_parts.pretty.git
+	url = https://gitlab.com/jmdaly/jmdaly_keyboard_parts.pretty.git
 [submodule "lib/digikey-kicad-library"]
 	path = lib/digikey-kicad-library
 	url = https://github.com/digikey/digikey-kicad-library.git
